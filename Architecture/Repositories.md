@@ -93,6 +93,7 @@ explainability across the system.
 
 - **Suryakant Mishra**  
   Co-Creator and Contributor
+  GitHub: https://github.com/mishrasuryakant
 
 ---
 
