@@ -6,16 +6,17 @@ This project is the final year submission of the following contributors:
 - Role: Creator of the Application
 - GitHub: https://github.com/shivamdubey023
 - Responsibilities:
-  - Lead Developer (full-stack implementation)
+  - Feature implementation and testing and Devlopment
   - Core design decisions and architecture
-  - Paper author and primary writer for academic submission
+  - Paper author
 
 ## Suryakant Mishra
 - Role: Co-Creator
+- GitHub: https://github.com/mishrasuryakant
 - Responsibilities:
-  - Feature implementation and testing
+  - Feature implementation and testing and Devlopment
   - Contribution to architecture and documentation
-  - Paper co-author and contributor
+  - Paper author 
 
 ---
 For questions about authorship, contributions, or reuse, please contact the authors directly via repository contact information.
