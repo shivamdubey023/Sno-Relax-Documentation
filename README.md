@@ -145,7 +145,6 @@ See `REPOSITORIES.md` for detailed descriptions.
 - **Suryakant Mishra**  
   GitHub: https://github.com/mishrasuryakant
 
----
 
 ### 📄 Paper Authors
 - **Shivam Kumar Dubey**
