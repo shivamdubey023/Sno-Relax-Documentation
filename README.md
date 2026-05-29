@@ -9,7 +9,7 @@ The platform focuses on **ethical AI usage**, **user control**, and **predictabl
 
 ## 📌 Project Status
 
-**FINAL YEAR PROJECT — FINAL SUBMISSION READY**
+**FINAL YEAR PROJECT — FINAL SUBMISSION**
 
 ---
 
