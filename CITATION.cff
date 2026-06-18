@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software or reference this work, please cite it as below."
+authors:
+  - family-names: "Dubey"
+    given-names: "Shivam Kumar"
+  - family-names: "Mishra"
+    given-names: "Suryakant"
+  - family-names: "Singh"
+    given-names: "Kavya"
+  - family-names: "Srivastava"
+    given-names: "Ratan Rajan"
+title: "SNO-Relax: An AI-Based Mental Health Support Framework"
+doi: 10.22214/ijraset.2026.82003
+date-released: 2026-05-05
+url: "https://doi.org/10.22214/ijraset.2026.82003"
+journal: "International Journal for Research in Applied Science and Engineering Technology (IJRASET)"

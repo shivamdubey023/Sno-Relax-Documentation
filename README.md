@@ -1,15 +1,33 @@
-# SNO-RELAX
+<div align="center">
+  <h1>🧠 SNO-RELAX</h1>
+  <p>An AI-Assisted Mental Health and Wellness Platform</p>
+  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+  [![Status: Final Submission](https://img.shields.io/badge/Status-Final_Submission-success.svg)]()
+  [![Paper: IJRASET](https://img.shields.io/badge/Paper-IJRASET-orange.svg)](https://doi.org/10.22214/ijraset.2026.82003)
+</div>
 
-**SNO-RELAX** is an AI-assisted mental health and wellness platform developed as a **Final Year Academic Project**.  
+---
+
+**SNO-RELAX** is an AI-assisted mental health and wellness platform developed as a **Final Year Academic Project**.
 The application is designed to provide **non-clinical mental wellness support** through mood tracking, guided activities, community interaction, and AI-assisted insights—without creating dependency on artificial intelligence.
 
 The platform focuses on **ethical AI usage**, **user control**, and **predictable system behavior**, making it suitable for academic evaluation and real-world application design.
 
 ---
 
-## 📌 Project Status
+## 📄 Research Paper Publication
 
-**FINAL YEAR PROJECT — FINAL SUBMISSION**
+This project has been published as a research paper in the **International Journal for Research in Applied Science and Engineering Technology (IJRASET)**.
+
+- **Title:** SNO-Relax: An AI-Based Mental Health Support Framework
+- **Paper ID:** IJRASET82003
+- **DOI:** [10.22214/ijraset.2026.82003](https://doi.org/10.22214/ijraset.2026.82003)
+- **Authors:** Suryakant Mishra, Shivam Kumar Dubey, Kavya Singh, and Ratan Rajan Srivastava
+
+> *Abstract: The project introduces an AI-based framework designed to provide mental health support. It was developed using a structured six-phase Software Development Life Cycle (SDLC) to ensure systematic design and implementation. The system integrates secure reporting, non-intrusive AI guidance, and community engagement to foster mental well-being.*
+
+If you find this work useful in your research, please consider citing it using the provided [CITATION.cff](CITATION.cff) file.
 
 ---
 
@@ -26,129 +44,61 @@ The platform focuses on **ethical AI usage**, **user control**, and **predictabl
 
 ## ✨ Key Features
 
-### Client Application
-- AI Chatbot (supportive, guidance-only behavior)
-- Mood Tracker (daily logging & 7-day trends)
-- AI Health Guide (suggestions, not decisions)
-- Fixed wellness activities:
-  - Yoga
-  - Meditation
-  - Exercises
-  - Breathing & stretching
-- Community groups for discussion and support
-- Therapist notes & reflections
-- Games and relaxation modules
-- Profile & settings management
-- Global theme system:
-  - Dark Theme
-  - Light Theme
-  - Application Default (Brand) Theme
+Detailed documentation of features can be found in [`docs/features/`](docs/features/).
 
----
+### Client Application
+- **AI Chatbot** (supportive, guidance-only behavior)
+- **Mood Tracker** (daily logging & 7-day trends)
+- **AI Health Guide** (suggestions, not decisions)
+- **Wellness Activities** (Yoga, Meditation, Exercises, Breathing)
+- **Community Groups** for discussion and support
+- **Therapist Notes & Reflections**
+- **Games & Relaxation Modules**
+- **Global Theme System** (Dark, Light, Brand Theme)
 
 ### Admin Panel
-- Responsive admin dashboard (desktop & mobile)
-- User management
-- Community moderation
-- Reports & analytics
-- Content control
-- Admin profile & credential visibility
-- Global theme consistency
-
----
-
-## 🎨 Theme Architecture
-
-SNO-RELAX uses a **global theming system** with:
-- Single source of truth for theme state
-- Instant theme propagation across all pages
-- Persistent theme preferences
-- Consistent UI behavior across:
-  - Client application
-  - Community pages
-  - Hospital reports
-  - Admin panel
-  - Profile and settings pages
+- **Responsive Dashboard** (desktop & mobile)
+- **User Management & Community Moderation**
+- **Reports & Analytics**
+- **Content Control & Global Theme Consistency**
 
 ---
 
 ## 🧩 Project Architecture
 
-The application follows a **modular and scalable architecture**:
-- Component-based UI
-- Centralized global state management
-- Fixed-content logic for wellness modules
-- Clear separation between:
-  - UI
-  - Business logic
-  - Theme management
-  - Admin controls
+The application follows a **modular and scalable architecture** focusing on component-based UI, centralized state management, and clear separation between UI, logic, and AI services.
 
-Detailed architecture documents are available in the `Architecture/` folder.
+Detailed architecture documents are available in the [`docs/architecture/`](docs/architecture/) folder.
 
 ---
 
 ## 🧪 Technology Stack
 
-**Frontend**
-- HTML, CSS, JavaScript
-- React (client & admin)
-- Mobile-first responsive design
-
-**Backend**
-- REST APIs
-- Real-time communication (Socket.IO)
-
-**Database**
-- User data and mood logs
-
-**AI / Logic Layer**
-- AI used strictly for guidance
-- No medical diagnosis or automated decisions
-
-
----
-
-## 🎓 Academic Declaration
-
-> This project is developed as a **Final Year Project** for academic submission.  
-> It demonstrates applied knowledge of web development, UI/UX design, system architecture, and ethical AI usage.
+- **Frontend:** HTML, CSS, JavaScript, React (Client & Admin)
+- **Backend:** Node.js, REST APIs, Real-time communication (Socket.IO)
+- **Database:** MongoDB
+- **AI / Logic Layer:** External NLP services strictly for guidance
 
 ---
 
 ## 🔗 Repository Links
 
-This project is organized across three repositories:
+This project is organized across three repositories. See [`docs/architecture/Repositories.md`](docs/architecture/Repositories.md) for detailed descriptions.
 
-- **Client:**  
-  https://github.com/shivamdubey023/sno-relax-client  
-  _User-facing web application (mood tracker, chatbot, community)._
-
-- **Server:**  
-  https://github.com/shivamdubey023/sno-relax-server  
-  _Backend API and real-time Socket.IO server (authentication, storage, AI integrations)._
-
-- **Admin:**  
-  https://github.com/shivamdubey023/sno-relax-admin  
-  _Administrative dashboard for moderation, analytics, and platform settings._
-
-See `REPOSITORIES.md` for detailed descriptions.
+- 💻 **Client:** [sno-relax-client](https://github.com/shivamdubey023/sno-relax-client) - User-facing web application.
+- ⚙️ **Server:** [sno-relax-server](https://github.com/shivamdubey023/sno-relax-server) - Backend API and real-time Socket.IO server.
+- 🛡️ **Admin:** [sno-relax-admin](https://github.com/shivamdubey023/sno-relax-admin) - Administrative dashboard.
 
 ---
 
 ## 👥 Contributors & Authors
 
-### 👨‍💻 Project Creator 
-- **Shivam Kumar Dubey**  
-  GitHub: https://github.com/shivamdubey023
+See the full list of project creators and research authors in the [`CONTRIBUTORS.md`](CONTRIBUTORS.md) file.
 
-- **Suryakant Mishra**  
-  GitHub: https://github.com/mishrasuryakant
-
-
-### 📄 Paper Authors
-- **Shivam Kumar Dubey**
-- **Suryakant Mishra**
+- **Shivam Kumar Dubey** (Application Creator & Paper Author)
+- **Suryakant Mishra** (Co-Creator & Paper Author)
+- **Kavya Singh** (Research Contributor)
+- **Ratan Rajan Srivastava** (Research Contributor)
 
 ---
 
@@ -166,5 +116,3 @@ Commercial usage requires prior permission from the authors.
 ## 🏁 Final Note
 
 SNO-RELAX represents a complete, submission-ready Final Year Project focused on **mental wellness**, **ethical AI**, and **modern web application design**.
-
----
